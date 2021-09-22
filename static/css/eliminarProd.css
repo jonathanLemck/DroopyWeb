@@ -1,0 +1,109 @@
+body{
+	background-image:url('../img/formprod.png');
+	background-size: cover;
+}
+
+
+ul li h1{
+	font-family:letra;
+	font-size: 25pt;
+	text-align: center;
+}
+
+.home{
+	margin-left: 40px;
+	font-size: 20pt;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #325289;
+	width: 1300px;
+	max-width: 1350px;
+	height: 80px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+
+.menu li {
+display: inline-block;
+	text-align: center;
+}
+
+.link{
+	display: inline-flex;
+	margin-left: 53%;
+	font-size: 15pt;
+}
+
+.botones{
+	display: flex;
+}
+
+.link li a span{
+	padding: 10px;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menu li h1{
+	padding-left: 5px;
+	color: yellow;
+}
+.icon{
+	font-size: 20pt;
+	padding-left: 10%;
+}
+.ti{
+	font-family:letra;
+	font-size: 35pt;
+	text-align: center;
+}
+
+.home span{
+	margin-left: 430px;
+	color: white;
+
+}
+.cont{
+	margin: auto;
+}
+.img{
+	width: 25%;
+	height: 20%;
+	margin-left: 38%;
+}
+.principal div h1{
+	margin-top: 2%;
+	text-align: center;
+	font-size: 18pt;
+}
+.principal{
+	margin: auto;
+	margin-top: 9%;
+	margin-bottom: 20px; 
+	border: 2px solid #325289;
+	width: 650px;
+	height: 300px;
+	border-radius: 50px;
+	background-color: white;
+
+}
+
+.botones .fml input{
+	border-radius: 20px;
+	width: 60px;
+	font-size: 19pt;
+	border-color: transparent;
+	background-color: white;
+	margin-left: 170px;
+}
+
+.botones .fml input:hover{
+	background-color: yellow;
+	cursor: pointer;
+}

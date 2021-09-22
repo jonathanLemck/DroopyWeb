@@ -1,0 +1,46 @@
+@font-face{
+	font-family:letraa;
+	src: url('../fuentes/kawa.ttf') format('truetype');
+}
+
+body{
+	background-image:url('../img/tienda.png');
+	font-family: letraa;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.menu{
+	list-style: none;
+	margin: auto;
+	margin-top: 20px;
+	padding: 0;
+	background: #BBAECB;
+	width: 1300px;
+	max-width: 1350px;
+	height: 80px;
+	
+	border: 2px solid #FF3FB2;
+	border-radius: 30px;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	padding-top: 20px;
+	display: block;
+}
+
+.menu li {
+	display: inline-block;
+	text-align: center;
+}
+
+.cerrar {
+	margin-left: 25%;
+}
+
+ul li a span{
+	font-size: 25pt;
+}

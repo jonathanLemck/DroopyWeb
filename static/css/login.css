@@ -1,0 +1,45 @@
+body{
+	background-image: url("../img/droopy.png");
+	background-size: cover;
+	background-repeat:no-repeat;
+}
+
+.principal{
+	margin: auto;
+	margin-top: 18%;
+	margin-bottom: 20px; 
+	border: 2px solid #B49988;
+	width: 400px;
+	height: 300px;
+	border-radius: 50px;
+	background: url("../img/login.png");
+	box-shadow: 4px 4px 4px 2px rgba(0, 0, 0, 0.2);
+	text-align: center;
+
+}
+
+div input, .enviar input{
+	padding: 10px;
+	height: 25px;
+	border-radius: 50px;
+	border: 0;
+	font-size: 20pt;
+	border: 0.2px solid rgba(0, 0, 0, 0.2);
+	margin: 20px;
+}
+
+.segundo{
+	margin-top: 5%;
+}
+
+.enviar input{
+	border-radius: 50px;
+	margin-left: 5%;
+	height: 45px;
+	background-color: white;
+}
+
+.enviar input:hover{
+	background-color: pink;
+	cursor: pointer;
+}

@@ -1,0 +1,131 @@
+body{
+	background-image:url('../img/formprod.png');
+	background-size: cover;
+}
+
+
+ul li h1{
+	font-family:letra;
+	font-size: 25pt;
+	text-align: center;
+}
+
+.home{
+	margin-left: 10px;
+	font-size: 20pt;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #325289;
+	width: 1300px;
+	max-width: 1350px;
+	height: 80px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+
+.menu li {
+display: inline-block;
+	text-align: center;
+}
+
+.link{
+	display: inline-flex;
+	margin-left: 53%;
+	font-size: 15pt;
+}
+
+.link li a span{
+	padding: 10px;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menu li h1{
+	padding-left: 360px;
+	color: #ff8576;
+}
+.icon{
+	font-size: 20pt;
+	padding-left: 4%;
+}
+.ti{
+	font-family:letra;
+	font-size: 35pt;
+	text-align: center;
+}
+
+.principal{
+	display: flex;
+	margin: auto;
+	margin-top: 35px;
+	margin-bottom: 20px;
+	background:url('../img/editar.png'); 
+	border: 2px solid #325289;
+	width: 500px;
+	height: 450px;
+	border-radius: 50px;
+
+}
+
+.div{
+	margin-left: 25%;
+	margin-top: 25px;
+	
+}
+
+.div input, .diva input{
+	padding: 4px;
+	height: 25px;
+	border-radius: 10px;
+	border: 0;
+}
+
+.div2{
+	
+	margin-left: 15%;
+	margin-top: 0.1px;
+}
+
+.div2 .btn2 button span{
+	border: 1px solid red;
+	margin-left: 10%;
+	font-size: 50%;
+}
+
+
+
+
+
+.diva{
+	margin-top: 25px;
+}
+
+.divbut input{
+
+	margin-left: 5%;
+	height: 25px;
+	padding: 4px;
+	height: 30px;
+	border-radius: 10px;
+	border-color: transparent;
+	margin-top: 25px
+
+}
+
+
+.diva label, .diva select{
+	padding: 4px;
+	height: 25px;
+	border-radius: 10px;
+	border: 0;
+}
+.divbut input:hover{
+	background-color: #ff8576;
+}
+

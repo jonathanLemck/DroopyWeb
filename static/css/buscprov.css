@@ -1,0 +1,87 @@
+.buscar{
+	margin-top: 9px;
+	margin-left: 140%;
+	display: flex;
+	padding: 5px;
+}
+
+.home{
+	margin-left: 10px;
+	font-size: 20pt;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #325289;
+	width: 1400px;
+	max-width: 1350px;
+	height: 80px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+
+.menu li {
+display: inline-block;
+	text-align: center;
+}
+
+.link{
+	display: inline-flex;
+	margin-left: 53%;
+	font-size: 15pt;
+}
+
+.link li a  span{
+	padding: 10px;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.inputBus{
+
+	margin-right: 20px;
+	width: 240px;
+	height: 40px;
+	padding: 0 20px;
+	font-size: 18px;
+	color: #000;
+	outline: none;
+	border: 1px solid #ff8576;
+	border-radius: 30px;
+	transition: all 0.6s ease;
+}
+
+.btn button{
+	background-color: transparent;
+	border: 0px;
+}
+
+.btn button span{
+	font-size: 15pt;
+	color: white;
+	margin-left: 9.5px;
+}
+
+.btn{
+	display:inline-flex;
+	margin-left:-70px;
+	top: 0;
+	right: 0;
+	background: #ff8576;
+	width: 55px;
+	height: 55px;
+	line-height: 55px;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	border-radius: 50%;
+}
+
+
+
+

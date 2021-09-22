@@ -1,0 +1,106 @@
+
+ul li h1{
+	font-family:letra;
+	font-size: 25pt;
+	text-align: center;
+}
+
+.home{
+	margin-left: 10px;
+	font-size: 20pt;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: #325289;
+	width: 1300px;
+	max-width: 1350px;
+	height: 80px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 30px;
+}
+
+.menu li {
+display: inline-block;
+	text-align: center;
+}
+
+
+
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menu li h1{
+	padding-left: 450px;
+	color: #ff8576;
+}
+.icon{
+	font-size: 20pt;
+	padding-left: 4%;
+}
+.ti{
+	font-family:letra;
+	font-size: 35pt;
+	text-align: center;
+}
+
+@font-face{
+	font-family:letra;
+	src:local('letra1'), 
+	url('../fuentes/milkyroad.ttf') format('truetype');
+}
+
+.icon{
+	font-size: 20pt;
+	padding-left: 4%;
+}
+.ti{
+	font-family:letra;
+	font-size: 35pt;
+	margin-top: 6%;
+	margin-left: 22%;
+}
+
+body{	
+	background-image: url('../img/resultado.png');
+	font-family: Arial;
+	background-size: cover;
+}
+
+.center{
+	margin-top: 10%;
+	margin-left: 4%;
+	width: 800px;
+
+}
+
+table{
+	background-color:#fdffcc;
+	text-align: left;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th,td{
+	padding: 20px;
+}
+
+thead{
+	background-color:#325289;
+	border-bottom: solid 5px #ff8576;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
