@@ -1,0 +1,42 @@
+# archivo .htaccess
+
+
+RewriteEngine on
+
+RewriteRule ^login$ html/login.php
+
+RewriteRule ^inicio$ controllers/inicio.php
+
+RewriteRule ^agregar-Producto$ controllers/agregarProducto.php
+
+RewriteRule ^agregar-Proveedor$ controllers/AgregarProveedor.php
+
+RewriteRule ^editar-Producto$ controllers/editarProducto.php
+
+RewriteRule ^editar-Proveedor$ controllers/editarProveedor.php
+
+RewriteRule ^eliminarP$ controllers/eliminarProducto.php
+
+RewriteRule ^eliminar-Prov$ controllers/eliminarProveedor.php
+
+RewriteRule ^listado-Productos$ controllers/ListadoBusquedaProductos.php
+
+RewriteRule ^listado-Proveedores$ controllers/ListadoBusquedaProveedores.php
+
+RewriteRule ^listado-Categorias$ controllers/listarCategorias.php
+
+RewriteRule ^listar-Productos$ controllers/listarProductos.php
+
+RewriteRule ^productos-categorias$ controllers/ProductosPorCategoria.php
+
+RewriteRule ^registro$ controllers/registro.php
+
+RewriteRule ^registro-historial$ controllers/RegistroHistorial.php
+
+RewriteRule ^busqueda-productos$ controllers/ResultadosBusquedaProducto.php
+
+RewriteRule ^busqueda-proveedor$ controllers/ResultadosBusquedaProveedor.php
+
+RewriteRule ^logout$ html/logout.php
+
+
